@@ -1,5 +1,13 @@
+    // if (request.url === '/state') {
+    //   response.statusCode = 200;
+    //   response.setHeader('Content-Type', 'application/json');
+    //   // response.writeHead(200, { 'Content-Type': 'application/json' });
+    //   response.end(JSON.stringify({ state }));
+    // }
+    // response.end('hello everyone');
+
 > Please help us improve and share your feedback! If you find better tutorials
-or links, please share them by [opening a pull request](https://github.com/FooCoding/Node.js/pulls).
+> or links, please share them by [opening a pull request](https://github.com/FooCoding/Node.js/pulls).
 
 # Node.js
 
@@ -37,10 +45,10 @@ from JavaScript module
 We're going to use the latest Node.js LTS 8.x. Follow one of the following
 instructions depending on your operating system:
 
-* [CentOS/Fedora/RHEL](https://github.com/nodesource/distributions#rpminstall)
-* [Debian/Ubuntu](https://github.com/nodesource/distributions#debinstall)
-* [macOS](https://nodejs.org/en/download/)
-* [Windows](https://nodejs.org/en/download/)
+- [CentOS/Fedora/RHEL](https://github.com/nodesource/distributions#rpminstall)
+- [Debian/Ubuntu](https://github.com/nodesource/distributions#debinstall)
+- [macOS](https://nodejs.org/en/download/)
+- [Windows](https://nodejs.org/en/download/)
 
 ## Pre-requisites
 
@@ -95,4 +103,5 @@ and use it as a reference.
 - Lecture 3 (Joost): https://www.youtube.com/watch?v=oeWCqKJsHtU&t=99s
 
 ---
+
 Credit goes to [HackYourFuture](https://github.com/HackYourFuture) which this is based upon.
