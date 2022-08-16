@@ -38,7 +38,3 @@ function createServer(port) {
 module.exports = {
   createServer
 };
-
-// Delet file fs.unlink
-
-// Rename file fs.rename
