@@ -17,11 +17,11 @@ function createServer(port) {
     // TODO: Write your homework code here
     if (request.url === '/state') {
       responseInfo(200, { state });
-    } else if (request.url === '/add') {
-      state += 1;
-      responseInfo(200, { state });
     } else if (request.url === '/reset') {
       state = 10;
+      responseInfo(200, { state });
+    } else if (request.url === '/add') {
+      state += 1;
       responseInfo(200, { state });
     } else if (request.url === '/subtract') {
       state -= 1;
@@ -38,3 +38,7 @@ function createServer(port) {
 module.exports = {
   createServer
 };
+
+// Delet file fs.unlink
+
+// Rename file fs.rename

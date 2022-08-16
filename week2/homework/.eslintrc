@@ -2,7 +2,7 @@
   "env": {
     "es6":  true,
     "node": true
-  },
+  },  
   "extends": "standard",
   "rules": {
     "brace-style": [
@@ -12,6 +12,7 @@
         "allowSingleLine": true
       }
     ],
+    "quotes": [2, "single", { "avoidEscape": true, "allowTemplateLiterals": true }]
     "curly": [
       "off"
     ],
