@@ -1,0 +1,20 @@
+[
+  {
+    "todo": "do homework",
+    "id": "1",
+    "date": "2022-08-17T23:36:04+02:00",
+    "done": false
+  },
+  {
+    "todo": "do laundry",
+    "id": "5a923480-7e78-4b62-a205-282e9d851ef1",
+    "date": "2022-08-17T23:36:26+02:00",
+    "done": false
+  },
+  {
+    "todo": "do shopping",
+    "id": "4d8a048d-803a-4e3a-a100-45096bf4a677",
+    "date": "2022-08-17T23:36:48+02:00",
+    "done": false
+  }
+]
