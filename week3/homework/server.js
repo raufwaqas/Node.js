@@ -11,20 +11,6 @@ app.use('/', POST);
 app.use('/', DELETE);
 app.use('/', PUT);
 
-// app.get('/todos', (req, res) => {
-//   res.status(200).json([{}, {}, {}]);
-//   res.status(500).send({ message: 'cannot read file' });
-// });
-// app.post('/todos', (req, res) => {
-//   res.send('this is post request');
-// });
-// app.put('/todos', (req, res) => {
-//   res.send('this is post request');
-// });
-// app.delete('/todos', (req, res) => {
-//   res.send('this is post request');
-// });
-
 // server
 app.listen(8080, () => {
   console.log('server is running on port 8080');

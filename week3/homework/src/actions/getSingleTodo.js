@@ -13,7 +13,7 @@ let getSingleTodo = (req) => {
         );
 
         if (!find) {
-          reject();
+          reject('todo not found');
         } else {
           resolve(find);
         }
